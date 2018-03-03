@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hospital-Register</title>
+<link rel="icon" type="image/png" href="images\logo.jpg" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.body {
+	background-color: rgba(123, 134, 121, 0.09);
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	position: relative;
+	background-image: url("images/doctor2.jpg")
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	padding-right: 40px;
+}
+
+li {
+	text-align: left;
+	font-size: 20px;
+	min-width: 159px;
+	color: solid black;
+}
+
+.text1 {
+	width: 60%;
+	padding: 1em;
+}
+
+.text1 input {
+	width: 50%;
+	padding: 10px;
+	border: 2px solid #cce;
+}
+
+.text1 input:hover {
+	width: 50%;
+	padding: 10px;
+	border: 2px solid #0ce;
+}
+
+sup {
+	color: red;
+}
+
+td {
+	width: 50%;
+	padding: 10px;
+}
+
+b {
+	font-size: 20px;
+}
+
+.content1 {
+	background-color: rgba(56, 37, 37, 0.16);
+	height: 90%;
+	width: 100%;
+	color: rgb(167, 13, 47);
+}
+
+a {
+	text-decoration: none;
+	color: rgb(167, 13, 47);
+}
+
+.footer {
+	background-color: black;
+	width: 100%;
+	height: 100px;
+	color: white;
+	bottom: 0px;
+	padding-bottom: 70px;
+}
+</style>
+</head>
+<body>
+	<form action="DoctorRegister" method="post" name="myform">
+
+		<div class="body">
+
+
+			<table>
+
+				<tr>
+
+					<td>
+						<div class="text1">
+							<h2 style="font-family: dotum; font-size: 40px">Create
+								Doctor Account</h2>
+							<ul>
+								<li><b>Name<sup>*</sup></b></li>
+								<li><input type="text" name="dName"
+									placeholder="Enter username" required></li>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<li><b>Email<sup>*</sup></b></li>
+								<li><input type="email" name="email"
+									placeholder="Enter your email" required></li>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+								<li><b>Contact Number<sup>*</sup></b></li>
+								<li><input type="number" name="contactNum" placeholder=""
+									required></li>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+								<li><b>Gender<sup>*</sup></b></li>
+								<li><input type="radio" name="gender" value="male">male
+									<input type="radio" name="gender" value="female">female
+								</li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+								<li><b>Specification<b></li>
+
+
+								<li><select name="appointmentType"
+									style="width: 205px; height: 40px; margin: 0px">
+										<option value="General">General</option>
+										<option value="Cardiologist">Cardiologist</option>
+										<option value="Gastroenterology">Gastroenterology</option>
+										<option value="Gynaecology">Gynaecology</option>
+										<option value="Haematology">Haematology</option>
+										<option value="Dental care">Dental care</option>
+										<option value="Nephrology">Nephrology</option>
+										<option value="Neurology">Neurology</option>
+										<option value="Oncology">Oncology</option>
+										<option value="Ophthalmology">Ophthalmology</option>
+										<option value="Urology">Urology</option>
+										<option value="ENT">ENT</option>
+										<option value="Accident and emergency(A&E)">Accident
+											and emergency(A&E)</option>
+
+
+								</select></li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+								<li><b>Experience<b></li>
+
+
+								<li><select name="experience"
+									style="width: 205px; height: 40px; margin: 0px">
+										<option value="ISE">experience in Years</option>
+										<option value="ISE">0</option>
+										<option value="ISE"><1</option>
+										<option value="ISE"><2</option>
+										<option value="ISE"><3</option>
+										<option value="ISE"><4</option>
+										<option value="ISE"><5</option>
+										<option value="ISE"><6</option>
+										<option value="ISE">>7</option>
+										<option value="ISE"><10</option>
+										<option value="ISE"><15</option>
+										<option value="ISE"><20</option>
+										<option value="ISE"><25</option>
+
+
+								</select></li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<li><input type="submit" value="save"
+									style="width: 20%; color: white; background-color: green; font-size: 15px; padding: 10px">
+
+									<input type="reset" value="cancel"
+									style="width: 20%; color: white; background-color: red; font-size: 15px; padding: 10px">
+
+
+								</li>
+
+
+
+
+							</ul>
+
+						</div>
+					</td>
+				</tr>
+			</table>
+
+		</div>
+
+	</form>
+
+
+	<div class="footer">
+		<p
+			style="color: red; font-family: cambria; font-size: 29px; padding-right: 20px;">About
+			Us</p>
+		<p style="color: white; font-family: cambria; font-size: 20px;">
+			What motivates people to change the way they work? When<br>
+			organizations introduce new processes or systems, or when they want
+			to stimulate <br> performance for certain business practices,
+			they often assemble dedicated task forces,<br> specific goals,
+			and identify deadlines and financial rewards.</br>
+		</p>
+		<p>&copy; All Right Reserved</p>
+
+	</div>
+
+</body>
+</html>

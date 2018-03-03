@@ -1,0 +1,43 @@
+@CHARSET "ISO-8859-1";
+
+.body{
+    background-color: rgba(123, 134, 121, 0.09);
+margin:10%;
+padding-right:50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	padding-right:40px;
+
+}
+li{
+ text-align:center;
+ font-size:20px;
+ min-width: 159px;
+ color:red;
+
+ }
+
+.text{
+width:60%;
+padding:1em;
+padding-left: 20px;
+}
+.text input {
+	width:50%;
+	padding:10px;
+	border:2px solid #cce;
+	
+}
+p{
+	padding:-80px;
+	padding-right: 20px;
+}
+#checkbox{
+	max-width:15px;
+	padding:0px;
+	padding-left: 0px;
+}
